@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user@gmail.com",
+      "password": "123456789",
+      "name": "Admin"
+    }
+  ],
+  "bill": {
+    "value": 10000,
+    "currency": "USD"
+  },
+  "categories": [
+    {
+      "name": "Home",
+      "capacity": 2500,
+      "id": 1
+    },
+    {
+      "name": "Food",
+      "capacity": 1000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Car",
+      "capacity": 1700
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.08.2019 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.08.2019 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.08.2019 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.08.2019 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.08.2019 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    }
+  ]
+}
